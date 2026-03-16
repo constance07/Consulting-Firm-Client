@@ -30,24 +30,24 @@ export default function Founder(){
                 </div>
                 {/*Founder About Disc*/}
                 <div className='founderAboutDisc'>
-                    <h2 id = "secondHeader" className = {ralewayBold.className}>Meet The Creator</h2>
+                    <h2 id = "secondHeader" className = {ralewayBold.className}>FOUNDER & STRATEGIC LEAD</h2>
                         <h1 id = "firstHeader" className = {ralewayBold.className}>SUMI VIJAY</h1>
                         <p id = "paragraphText" className = {merriweather.className}>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-                        In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. 
-                        Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
-                        Iaculis massa nisl malesuada lacinia integer nunc posuere. 
-                        Ut hendrerit semper vel class aptent taciti sociosqu. 
-                        Ad litora torquent per conubia nostra inceptos himenaeos.
-                        <br></br><br></br>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-                        Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-                        In id cursus mi pretium tellus duis convallis. 
-                        Tempus leo eu aenean sed diam urna tempor. 
-                        Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
-                        Iaculis massa nisl malesuada lacinia integer nunc posuere. 
-                        Ut hendrerit semper vel class aptent taciti sociosqu. 
-                        Ad litora torquent per conubia nostra inceptos himenaeos.
+                            Monty & Friends was founded on the belief that small and mid-sized businesses deserve disciplined strategy, financial clarity, 
+                            and systems that actually support long-term performance.
+                            
+                            <br></br><br></br>Sumi brings an analytical, systems-based approach to her work by viewing businesses as interconnected operations where pricing, 
+                            expenses, workflows, and team dynamics all affect results.
+                            
+                            <br></br><br></br>Her work begins by understanding how a business truly functions. From there, she builds financial clarity for owners, identifies structural inefficiencies, 
+                            and develops long-term strategies to strengthen performance.
+
+                            <br></br><br></br>Each engagement is collaborative. Depending on the needs of the business, Sumi works alongside owners, managers, and trusted specialists to 
+                            implement practical systems that improve operations, strengthen margins, and support sustainable growth.
+                            
+                            <br></br><br></br>She believes that clear numbers lead to better decisions — and that aligned teams drive sustainable success.
+
+                            <br></br><br></br>Monty & Friends is being built as a growing consulting firm grounded in structured problem-solving, hands-on execution, and long-term stability.
                         </p>
                     </div>
                 </div>

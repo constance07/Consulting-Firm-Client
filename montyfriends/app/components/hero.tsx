@@ -32,11 +32,11 @@ export default function Hero(){
                     <h3 id ='firstPartTitle' className={ralewayBold.className}>THE IDEA? IT'S SIMPLE: </h3>
                     <h3 id ='secondPartTitle' className={ralewayBold.className}>HAPPY PEOPLE, BETTER BUSINESS.</h3>
                 {/* Disc*/}
-                <p id = "heroDisc" className={merriweather.className}> Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-                    Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-                    In id cursus mi pretium tellus duis convallis. </p>
+                <p id = "heroDisc" className={merriweather.className}>We partner directly with business owners and 
+                    their teams to improve operations, strengthen margins, and build short and long-term strategy — because real performance starts with the people behind the business.
+                </p>
                 {/*Button*/}
-                 <button /* onMouseEnter = {enableUnderline()} */ id = "helpButton" className={ralewayBold.className}><span id = "helpContent"><a id = "helpLink">Let Us Help</a></span></button>
+                 <button /* onMouseEnter = {enableUnderline()} */ id = "helpButton" className={ralewayBold.className}><span id = "helpContent"><a href = '/(1)services' id = "helpLink">Work With Us</a></span></button>
                 </div>
                 </div>
 

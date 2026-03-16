@@ -18,27 +18,27 @@ export default function CompanyAbout(){
                 <div className='companyAboutSection'>
                     <div className='companyAboutTitle'>
                         {/*Title*/}
-                        <h2 id = "secondHeader" className = {ralewayBold.className}>MEASURABLE GROWTH</h2>
-                        <h1 id = "firstHeader" className = {ralewayBold.className}>We Make Smart Decisions.</h1>
+                        <h2 id = "secondHeader" className = {ralewayBold.className}>REAL RESULTS</h2>
+                        <h1 id = "firstHeader" className = {ralewayBold.className}>Where Strategy Meets Measurable Growth.</h1>
                         {/*Disc*/}
-                        <p id = "paragraphText" className = {merriweather.className}>Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-                            Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-                            In id cursus mi pretium tellus duis convallis.</p>
+                        <p id = "paragraphText" className = {merriweather.className}>We focus on practical execution and measurable outcomes. 
+                            From operational restructuring to financial modeling and capital improvement planning, 
+                            our work drives performance gains that owners can see and sustain.</p>
                     </div>
 
                     {/*Statistics*/}
                     <div className='companyAbtStats'>
                         <div id = "stat1" className = {ralewayBold.className}>
-                            <p className='statNumbers'>125</p><p className = "statMoney">k</p><br></br>
-                            <span className='statDisc'>Capital Improvements Delivered</span>
+                            <p className='statNumbers'>+20%</p><p className = "statMoney"></p><br></br>
+                            <span className='statDisc'> Revenue growth within 4 months through pricing and occupancy optimization </span>
                         </div>
                         <div id = "stat2" className = {ralewayBold.className}>
-                            <p className='statNumbers'>20</p><p className = "statPercent">%</p><br></br>
-                            <span className='statDisc'>Off-Season Occupancy Increase</span>
+                            <p className='statNumbers'>60% → 80%</p><p className = "statPercent">%</p><br></br>
+                            <span className='statDisc'> Occupancy increase following operational and demand strategy adjustments </span>
                         </div>
                         <div id = "stat3" className = {ralewayBold.className}>
-                            <p className='statNumbers'>25</p><p className = "statPercent">%</p><br></br>
-                            <span className='paragraphText'>Monthly Profit Growth</span>
+                            <p className='statNumbers'>–15%</p><p className = "statPercent">%</p><br></br>
+                            <span className='paragraphText'> Reduction in operating expenses through structural cost improvements </span>
                         </div>
                     </div>
                     
@@ -46,8 +46,7 @@ export default function CompanyAbout(){
                     <div className ='companyAbtQoute'>
                         <div id = "qoutations1"  className={ralewayBold.className}>"</div>
                         <h2 id = "qouteContent" className={ralewayBold.className}> 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
-                            aculis massa nisl malesuada lacinia integer nunc posuere.
+                            Spreadsheets inform decisions. People drive results.
                         </h2>
                         <div id = "qoutations2" className={ralewayBold.className}>"</div>
                     </div>
@@ -71,21 +70,15 @@ export default function CompanyAbout(){
                             <h2 id = "secondHeader" className = {ralewayBold.className}>WHAT DRIVES US</h2>
                             <h1 id = "firstHeader" className = {ralewayBold.className}>About The Company</h1>
                             <p id = "paragraphText" className = {merriweather.className}>
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-                                In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. 
-                                Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
-                                Iaculis massa nisl malesuada lacinia integer nunc posuere. 
-                                Ut hendrerit semper vel class aptent taciti sociosqu. 
-                                Ad litora torquent per conubia nostra inceptos himenaeos.
-                                <br></br><br></br>
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-                                Quisque faucibus ex sapien vitae pellentesque sem placerat. 
-                                In id cursus mi pretium tellus duis convallis. 
-                                Tempus leo eu aenean sed diam urna tempor. 
-                                Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
-                                Iaculis massa nisl malesuada lacinia integer nunc posuere. 
-                                Ut hendrerit semper vel class aptent taciti sociosqu. 
-                                Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+                                Monty & Friends is built around a simple idea: small and mid-sized businesses deserve clear financial visibility, strong systems, 
+                                and strategy that actually gets implemented.
+                                <br></br><br></br>We go into businesses and work directly with the people who run them every day, from owners to managers to staff. 
+                                Our goal is to understand how the operation truly functions. From there, we build structured financial models that make the numbers clear: 
+                                where money is being made, where it’s being lost, and where opportunity exists.
+                                <br></br><br></br>We help implement individualized systems that reduce operating expenses, strengthen revenue performance, and create structure that 
+                                lasts long after we step away.
+                                As our clients grow, we grow with them and continue to offer strategic tailored support each step of the way.
+                                </p>
                             </div>
                         </div>
 

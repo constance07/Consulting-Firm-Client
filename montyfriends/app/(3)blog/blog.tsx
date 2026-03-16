@@ -16,11 +16,11 @@ export default function Blog(){
         <div className='blogSection'>
             <div className='blogContainer'>
                 <div className='blogTitle'>
-                <h2 id = "secondHeader" className = {ralewayBold.className}>GET THE BEHIND THE SCENES</h2>
+                <h2 id = "secondHeader" className = {ralewayBold.className}>FINANCIAL & OPERATIONAL INSIGHTS</h2>
                 <h1 id = "firstHeader" className = {ralewayBold.className}>LATEST NEWS</h1>
                     <p id = "paragraphText" className = {merriweather.className}>
-                        Ut hendrerit semper vel class aptent taciti sociosqu. 
-                        Ad litora torquent per conubia nostra inceptos himenaeos.
+                        Monty & Friends shares analysis on economic trends, industry dynamics, and financial performance — viewed through the lens of business operators. 
+                        Our focus is understanding how broader forces impact margins, pricing, cost structures, and long-term stability.
                     </p>
                 </div>
 

@@ -1,9 +1,12 @@
 /*Functionality Imports */
+'use client';
 import {useState} from 'react'
-import { Resend } from 'resend';
 /*Styled Imports*/
 import '../globals.css';
 import { Raleway, Merriweather } from 'next/font/google';
+const merriweather = Merriweather({
+    subsets: ["latin"], weight: "300"
+})
 const ralewayBold = Raleway({
     subsets: ["latin"], weight: "800"
 })
@@ -70,35 +73,37 @@ export default function Contact(){
         emailError.innerHTML = "";
         messageError.innerHTML = "";
 
-        {/*Var: Check if Emaili-in-Box* - Fill in with API Key*/}
-        const resend = new Resend('re_xxxxxxxxx');
         try{
-            const emailSent = await resend.emails.get(
-            '37e4414c-5e25-4dbc-a071-43552a4bd53b',
-            )
             const response = await fetch('/api/send', {
                 method: 'POST',
                 body: JSON.stringify({...formData}),
             });
+        /*Email Sent !*/
             setFormData(initialFormData);
             toast.success("Email was sent sucessfully!");
-         }catch(error:any){
+        } catch(error:any){
         /*Email Error !*/
+            
             toast.error('Oops, looks like something went wrong ', error);
-        }};
+        }
+    };
 
     return(
         <div className='section' id = "contactSection">
                 <div className='contactContainer'>
                 {/*Title*/}
                 <div id = "contactTitle" className= {ralewayBold.className}>
-                    <div id = 'contactTextA1' className={raleway.className}>Say <span id = "contactTextA2" className={ralewayBold.className}>
-                        Hello!</span> </div> 
-                    <div id = 'contactTextB1' className={raleway.className}>Tell me about how I can help <span id = "contactTextB2" className={ralewayBold.className}>You.</span></div>
+                    <div id = 'contactTextB1' className={raleway.className}>Start the <span id = "contactTextA2" className={ralewayBold.className}>
+                        Conversation.</span> </div> 
                 </div>
-                    
+                
+                {/*Disc*/}
+                <p className={merriweather.className} id = "contactDisc">
+                    If you’re looking to strengthen performance, improve financial clarity, or prepare your business for its next stage of growth, we’d welcome the opportunity to learn more.
+                    Tell us about your business, what you’re working toward, and where you see the biggest challenges. We review every inquiry carefully and respond directly
+                </p>
                 {/*Form*/}
-                <div className = "">
+                <div className = "formBox">
                     <form name = "conctactForm" onSubmit = {handleSubmit} className='form' >
                         <fieldset className='formField'>
                             <h2 id='formSubTitles' className = {ralewayBold.className} >NAME</h2>
@@ -108,8 +113,37 @@ export default function Contact(){
                                 id='inputA' 
                                 type = 'text'
                                 name = 'name'
-                                placeholder='Full Name'
                                 value = {formData.name}
+                                onChange={handleChange}/>
+
+                            <h2 id='formSubTitles' className = {ralewayBold.className} >COMPANY NAME</h2>
+                            <div className = {ralewayBold.className} id = ""></div>
+                                <input 
+                                className= {raleway.className} 
+                                id='inputA' 
+                                type = 'text'
+                                name = 'name'
+                                value = {formData.name}
+                                onChange={handleChange}/>
+
+                            <h2 id='formSubTitles' className = {ralewayBold.className} >INDUSTRY</h2>
+                            <div className = {ralewayBold.className} id = ""></div>
+                                <input 
+                                className= {raleway.className} 
+                                id='inputA' 
+                                type = 'text'
+                                name = 'name'
+                                value = {formData.name}
+                                onChange={handleChange}/>
+
+                            <h2 id='formSubTitles' className = {ralewayBold.className}>SUBJECT</h2>
+                            <div className = {ralewayBold.className} id = ""></div>
+                                <input  
+                                className= {raleway.className} 
+                                id='inputB'
+                                type = 'text' 
+                                name = 'email'
+                                value = {formData.email} 
                                 onChange={handleChange}/>
 
                             <h2 id='formSubTitles' className = {ralewayBold.className}>EMAIL</h2>
@@ -119,10 +153,8 @@ export default function Contact(){
                                 id='inputB'
                                 type = 'text' 
                                 name = 'email'
-                                placeholder='Email Address'
                                 value = {formData.email} 
                                 onChange={handleChange}/>
-
 
                             <h2 id='formSubTitles' className = {ralewayBold.className}>MESSAGE</h2>
                             <div className = {ralewayBold.className} id = "messageError"></div>
@@ -130,7 +162,16 @@ export default function Contact(){
                                 className= {raleway.className} 
                                 id='textArea' 
                                 name = 'message' 
-                                placeholder='Message'
+                                value = {formData.message} 
+                                onChange={handleChange}>
+                            </textarea>
+
+                            <h2 id='formSubTitles' className = {ralewayBold.className}>ANNUAL REVENUE RANGE</h2>
+                            <div className = {ralewayBold.className} id = "messageError"></div>
+                            <textarea  
+                                className= {raleway.className} 
+                                id='annualRev' 
+                                name = 'message' 
                                 value = {formData.message} 
                                 onChange={handleChange}>
                             </textarea>

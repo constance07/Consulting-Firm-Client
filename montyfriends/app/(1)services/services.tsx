@@ -26,11 +26,11 @@ export default function Hero(){
                 {/* Introduction*/}
                 <div className='serviceTitleContainer'>
                 <div className = 'serviceTitle'>
-                    <h3 id ='firstPartTitleB' className={ralewayBold.className}>WORK THAT WORKS</h3>
+                    <h3 id ='firstPartTitleB' className={ralewayBold.className}>STRATEGIC SERVICES. REAL IMPLEMENTATION.</h3>
                     <h3 id ='secondPartTitleB' className={ralewayBold.className}>Our Services</h3>
                 {/* Disc*/}
-                <p id = "serviceDisc" className={merriweather.className}>Ut hendrerit semper vel class aptent taciti sociosqu. 
-                    Ad litora torquent per conubia nostra inceptos himenaeos. </p>
+                <p id = "serviceDisc" className={merriweather.className}>Monty & Friends works inside businesses to improve financial clarity, operational performance, and long-term stability. 
+                    Our services are structured, measurable, and tailored to the realities of each operation. </p>
                 {/*Service Image*/}
                 <div className='serviceImageContainer'>
                     <Image
@@ -46,59 +46,44 @@ export default function Hero(){
                 {/*Service Cards*/}
                 <div className='cardServiceSet'>
                     <div id = "card1" className='cardServices'>
-                        <p id ="serviceCardTitle" className={ralewayBold.className}>Operations Optimization</p>
-                        <p id ="serviceCardDisc" className={raleway.className}>Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas 
-                            Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas
+                        <p id ="serviceCardTitle" className={ralewayBold.className}>Financial Visibility & Modeling</p>
+                        <p id ="serviceCardDisc" className={raleway.className}>We build structured financial models that give owners clear insight into where money is earned, spent, and optimized.
+                            This includes: monthly performance tracking, expense categorization & analysis, revenue trend modeling, and forecasting & scenario planning.
                         </p>
                         {/* <a id = "projectLink" className={ralewaySemiBold.className}>View Project</a> */}
                     </div>
                     <div id = "card2" className='cardServices'>
-                        <p id ="serviceCardTitle" className={ralewayBold.className}>Guest Experience Design</p>
-                        <p id ="serviceCardDisc" className={raleway.className}>Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas 
-                            Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas
+                        <p id ="serviceCardTitle" className={ralewayBold.className}>Operational Efficiency & Cost Optimization</p>
+                        <p id ="serviceCardDisc" className={raleway.className}>We analyze how the business actually runs and identify structural inefficiencies that affect profitability.
+                            This includes: workflow evaluation, vendor & expense review, cost restructuring, and on-site process improvements.
                         </p>
                         {/* <a id = "projectLink" className={ralewaySemiBold.className}>View Project</a> */}
                     </div>
                     <div id = "card3" className='cardServices'>
-                        <p id ="serviceCardTitle" className={ralewayBold.className}>Staff Training & Support</p>
+                        <p id ="serviceCardTitle" className={ralewayBold.className}>Marketing, Revenue & Pricing Strategy</p>
                         <p id ="serviceCardDisc" className={raleway.className}>
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas 
-                            Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas
+                            We evaluate how businesses attract customers, position themselves competitively in the market, and convert demand into revenue.
+                            The goal is simple: improve market visibility, strengthen pricing power, and increase sustainable revenue.
                         </p>
                         {/* <a id = "projectLink" className={ralewaySemiBold.className}>View Project</a> */}
                     </div>
                     <div id = "card4" className='cardServices'>
-                        <p id ="serviceCardTitle" className={ralewayBold.className}>Financial Analysis</p>
+                        <p id ="serviceCardTitle" className={ralewayBold.className}>Capital & Improvement Planning</p>
                         <p id ="serviceCardDisc" className={raleway.className}>
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas 
-                            Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas
+                            We help owners plan and execute improvement initiatives that strengthen long-term performance and asset value.
+                            This includes: This includes: PIP planning & execution support, ROI-based capital allocation, and asset repositioning strategy.
                         </p>
                         {/* <a id = "projectLink" className={ralewaySemiBold.className}>View Project</a> */}
                     </div>
                     <div id = "card5" className='cardServices'>
-                        <p id ="serviceCardTitle" className={ralewayBold.className}>PIPs & Capital Planning</p>
+                        <p id ="serviceCardTitle" className={ralewayBold.className}>Transition & Growth Support</p>
                         <p id ="serviceCardDisc" className={raleway.className}>
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas 
-                            Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas
+                            We support ownership transitions, expansion phases, and restructuring efforts while maintaining team stability and operational continuity.
+                            This includes: implementation planning, team alignment, system integration, and ongoing advisory support.
                         </p>
                         {/* <a id = "projectLink" className={ralewaySemiBold.className}>View Project</a> */}
                     </div>
-                    <div id = "card6" className='cardServices'>
-                        <p id ="serviceCardTitle" className={ralewayBold.className}>Marketing Growth</p>
-                        <p id ="serviceCardDisc" className={raleway.className}>
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas 
-                            Tempus leo eu aenean sed diam urna tempor. 
-                            Pulvinar vivamus fringilla lacus nec metus bibendum egestas
-                        </p>
-                        {/* <a id = "projectLink" className={ralewaySemiBold.className}>View Project</a>  */}
-                    </div>
+               
                 </div>
             </div>
             </div>

@@ -11,8 +11,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
   
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Sumi Vijay <contact@sumi.vijay704@gmail.com>',
-      to: ['sumi.vijay704@gmail.com'],
+      from: 'Serenity Buckner <contact@serenitybuckner.com>',
+      to: ['serenc0107@gmail.com'],
       subject: 'Monty & Friends: Contact Form Submission',
       react: EmailTemplate({ 
         name: body.name || "empty",

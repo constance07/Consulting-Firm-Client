@@ -20,7 +20,7 @@ export default function Footer(){
                     alt = 'Monty & Friends Logo'
                     id = 'secondaryLogo'
                 ></Image>
-                <p id = 'ownershipTag' className={raleway.className}>© 2025 Monty & Friends LLC. All Rights Reserved</p>
+                <p id = 'ownershipTag' className={raleway.className}>© 2026 Monty & Friends LLC. All Rights Reserved</p>
                 <p id = 'ownershipMotto' className={raleway.className}>Happy People, Better Business.</p>
             </div>
 

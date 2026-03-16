@@ -94,7 +94,7 @@ export default function Navigation(){
             </nav>
 
 
-    {/*ON DESKTOP*/}   
+    {/* ON DESKTOP*/}   
         {/*Navigation Bar*/} 
         {/* <div className='placeHolderNav'>
         <nav className ='navContainer'>
