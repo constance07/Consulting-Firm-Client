@@ -26,8 +26,8 @@ export default function Hero(){
                 {/* Introduction*/}
                 <div className='serviceTitleContainer'>
                 <div className = 'serviceTitle'>
-                    <h3 id ='firstPartTitleB' className={ralewayBold.className}>STRATEGIC SERVICES. REAL IMPLEMENTATION.</h3>
-                    <h3 id ='secondPartTitleB' className={ralewayBold.className}>Our Services</h3>
+                    <h3 id ='secondHeader' className={ralewayBold.className}>STRATEGIC SERVICES. REAL IMPLEMENTATION.</h3>
+                    <h3 id ='firstHeader' className={ralewayBold.className}>Our Services</h3>
                 {/* Disc*/}
                 <p id = "serviceDisc" className={merriweather.className}>Monty & Friends works inside businesses to improve financial clarity, operational performance, and long-term stability. 
                     Our services are structured, measurable, and tailored to the realities of each operation. </p>

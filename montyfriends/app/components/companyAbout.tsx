@@ -38,7 +38,7 @@ export default function CompanyAbout(){
                         </div>
                         <div id = "stat3" className = {ralewayBold.className}>
                             <p className='statNumbers'>–15%</p><p className = "statPercent">%</p><br></br>
-                            <span className='paragraphText'> Reduction in operating expenses through structural cost improvements </span>
+                            <span className='statDisc'> Reduction in operating expenses through structural cost improvements </span>
                         </div>
                     </div>
                     

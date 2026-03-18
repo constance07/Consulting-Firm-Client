@@ -2,7 +2,6 @@ body{
   /*Overlay*/
   margin: 0;
   background-color: #01645B;
-
 }
 /*Scroll-Bar*/
       /*Disables*/
@@ -15,7 +14,8 @@ body{
           overflow: auto;
           height: 100vh;
           overflow-x: hidden;
-    }
+      }
+
 /*Media Queries* --> Iphone and Tablets*/
 /*xs*/
 @media (min-width: 0px){
@@ -325,8 +325,8 @@ body{
   }#secondaryLogo{
     margin-bottom: 0px;
     padding-bottom: 0px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-top: 5px;
   }
   /*SERVICE SECTION*/
@@ -344,16 +344,8 @@ body{
     margin-top: 50px;
     margin-left: 75px;
     margin-right: 75px;
-  }#firstPartTitleB{
-     font-size: 1.0em;
-      color: #e989c3;
-      margin-bottom: 10px;
-      margin-top: 50px;
-  }#secondPartTitleB{
-      font-size: 1.6em;
-      margin-top: 5px;
-      margin-bottom: 0px;  
-      color: #2D2D30;
+  }.serviceTitle{
+    padding-top: 50px;
   }#serviceDisc{
       color: #F8F8F8;
       margin-top: 15px;
@@ -481,7 +473,7 @@ body{
       color: #6e2a89d2;
   }
   /*CONTACT SECTION */
-.contactContainer{
+    .contactContainer{
       padding-bottom: 150px;
       background-color: #01645B;
       text-align: center;
@@ -505,7 +497,7 @@ body{
       font-size: 0.85em;
       width: 80%;
       color: #F8F8F8;
-      margin-top: 50px;
+      margin-top: 25px;
       margin-bottom: 0px;
     }.form{
       display: flex;
@@ -529,7 +521,7 @@ body{
       margin-bottom: 0px;
     }.formField{
       text-align: start;
-    }#inputA,#inputB, #inputC,#textArea{
+    }#inputA,#inputB, #inputC,#textArea, #annualRev{
       width: 40vw;
       height: 10px;
       font-size: 0.8em;
@@ -555,6 +547,7 @@ body{
       outline: none;  
       height: 15px;
       resize: none;
+      overflow: hidden;
     }#submit{
       margin-top: 20px;
       border: 20px;
@@ -575,7 +568,295 @@ body{
       font-size: 0.75em;
       color: rgb(255, 24, 24);
     }
+}
+/*small*/
+@media(min-width: 640px){
+  /* HERO */
+  #firstPartTitle{
+    font-size: 1.2em;
+  }#secondPartTitle{
+    font-size: 2.1em;
+  }#heroDisc{
+    font-size: 0.875em;
+  }#helpButton{
+    font-size: 0.825em;
+  }.heroImage{
+    width: 375px;
+    height: 215px;
   }
+  /* COMPANY ABOUT */
+  #secondHeader{
+    font-size: 1.075em;
+  }#firstHeader{
+    font-size: 1.675em;
+  }#paragraphText{
+    font-size: 0.875em;
+  }.statNumbers{
+    font-size: 1.85em;
+  }.statDisc{
+    font-size: 1.05em;
+  }#qouteContent{
+    font-size: 1.55em;
+  }.compAbtImg{
+    width: 285px;
+    height: 435px;
+  }
+  /* SERVICES */
+  #serviceImage{
+    width: 400px;
+    height: 225px;
+  }.serviceImageContainer{
+    padding-top: 10px;
+  }#serviceCardTitle{
+    font-size: 0.8em;
+  }#serviceCardDisc{
+    font-size: 0.75em;
+  }
+  /* FOUNDER  */
+  .sumiHeadshot{
+    width: 325px;
+    height: 425px;
+  }#downloadResume{
+    font-size: 0.845em;
+  }.founderAboutDisc{
+    height: 490px;
+  }
+  /* BLOG */
+  #blogComingSoon{
+    font-size: 1.15em;
+  }
+  /* CONTACT */
+  #contactTitle{
+    font-size: 1.9em;
+  }#contactDisc{
+    font-size: 0.875em;
+  }#formSubTitles{
+    font-size: 0.95em;
+  }#inputA, #inputB, #inputC, #textArea, #annualRev{
+    font-size: 0.85em;
+  }#submit{
+    font-size: 0.9em;
+  }
+}
+/*medium*/
+@media(min-width: 768px){
+  /* NAVIGATION */
+  #logoMobile{
+    width: 95px;
+    height: 85px;
+    margin-bottom: 200px;
+  }.hamburgerContainer li{
+    font-size: 1.2em;    
+  } #close-Button span:nth-child(1){
+    width: 28px;
+  } #close-Button span:nth-child(2){
+    width: 28px;
+  }
+  /* HERO */
+  #firstPartTitle{
+    font-size: 1.3em;
+  }#secondPartTitle{
+    font-size: 2.2em;
+  }#heroDisc{
+    font-size: 0.9em;
+    width: 450px;
+  }#helpButton{
+    font-size: 0.84em;
+  }.heroImage{
+    width: 400px;
+    height: 225px;
+  }
+  /* COMPANY ABOUT */
+  #secondHeader{
+    font-size: 1.12em;
+  }#firstHeader{
+    font-size: 1.72em;
+  }#paragraphText{
+    font-size: 0.9em;
+  }.statNumbers{
+    font-size: 1.9em;
+  }.statDisc{
+    font-size: 1.1em;
+  }#qouteContent{
+    font-size: 1.6em;
+  }.compAbtImg{
+    width: 315px;
+    margin-top: 5px;
+    height: 465px;
+  }
+  /* SERVICES */
+  #serviceImage{
+    width: 425px;
+    height: 245px;
+  }.serviceImageContainer{
+    padding-top: 12px;
+  }#serviceCardTitle{
+    font-size: 0.85em;
+  }#serviceCardDisc{
+    font-size: 0.8em;
+  }
+  /* FOUNDER  */
+  .sumiHeadshot{
+    width: 345px;
+    height: 450px;
+  }#downloadResume{
+    width: 130px;
+    height: 42px;
+    font-size: 0.9em;
+    margin: 20px;
+  }.founderAboutDisc{
+    height: 490px;
+  }
+  /* BLOG */
+  #blogComingSoon{
+    font-size: 1.2em;
+  }
+  /* CONTACT */
+  #contactTitle{
+    font-size: 2.0em;
+  }#contactDisc{
+    font-size: 0.9em;
+  }#formSubTitles{
+    font-size: 1.0em;
+  }#inputA, #inputB, #inputC, #textArea, #annualRev{
+    font-size: 0.9em;
+  }#submit{
+    font-size: 0.95em;
+    height: 35px;
+  }
+}
+
+/*Media Query* --> Computer */
+/*large*/
+@media(min-width: 1024px){
+
+}
+
+/*extra large*/
+@media(min-width: 1280px){
+  /* HERO */
+  .heroContainer{
+    width: 1200px;
+    height: 500px;
+  }#thirdPartTitleB{
+    font-size: 1.0em;
+  }.title{
+    margin-top: 0px;
+    font-size: 1.9em;
+  }#personalDisc{
+    font-size: 0.65em;
+    margin-left: 150px;
+    margin-right: 150px;
+  }.straightHeadshot{
+    width: 150px;
+    height: 185px;
+    margin-bottom: 0px;
+  }
+  /*ABOUT SECTION*/
+  #aboutSection{
+    width: 100%;
+    /* background-color: #3F3F3F; */
+  }.aboutContainer{
+    width: 100%;
+  }.discWrapper{
+    width: 1100px;
+    padding-bottom: 50px;
+  }#aboutTitle{
+    font-size: 2.5em;
+  }#aboutDisc{
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 1.1em;
+  }
+  /*WORK SECTION*/
+  #workSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 1400px;
+    /* background-color: #FFFFFF; */
+  }.workContainer{
+    width: 1400px;
+    /* background-color: #00000000; */
+  }#workTitle{
+    font-size: 2.5em;
+  }#displayTitle{
+    font-size: 1.6em;
+  }#WGTT{
+    margin-top: 14px;
+  }#displayDisc{
+    font-size: 1.0em;
+  }#skillsTitle{
+    font-size:2.22em;
+  }#resumeTitle{
+    margin-top:0px;
+    font-size: 1.1em;
+  }#techStack{
+    width: 1000px;
+    height: 20px;
+  }#techItem{
+    margin-top: 0px;
+    font-size: 0.9em;
+  }.displayBackground{
+    height: 400px;
+  }.displayContainer{
+    height: 450px;
+    width: 800px;
+  }
+  /*BLOG CONTAINER */
+  #blogTitle{
+    font-size: 2.5em;
+  }#blogSubtitleText{
+    font-size: 1.4em;
+  }#h3TagsA{
+    font-size: 1.5em;
+  }#blogPostTitle{
+    font-size: 115%;
+  }#blogPostDisc{
+    font-size: 95%;
+  }.blogPostContainer{
+    width: 700px;
+  }#blogContainer{
+    width: 100%;
+  }.embla{
+      width: 700px;
+      height: 475px;
+    }#embla__prev,#embla__next{
+      margin-top: 0px;
+    }.embla__slide{
+      height: 425px;
+      width: 105%;
+       flex: 0 0 98.6%; 
+    }.emblaImage{
+      height: 100%;
+      width: 103%; 
+    }
+    /*CONTACT SECTION*/
+    #contactSection{
+      width: 100%;
+      height: 1050px;
+      /* background-color: #161616; */
+      padding-bottom: 175px;
+    }
+    #contactTitle{
+      font-size: 2.5em;
+    }#contactSubTitle{
+      font-size: 1.15em;
+    }#formSubTitles{
+      font-size: 1.4em;
+    }#submit{
+      font-size: 15px;
+      width: 120px;
+      margin-top: 60px;
+      height: 38px;
+    }#inputA,#inputB, #inputC,#textArea{
+      font-size: 1.0em;
+      width: 700px;
+      padding: 17px;
+    }  
+
+  
+}
 
 /*Animations */
 
