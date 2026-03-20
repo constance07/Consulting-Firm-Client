@@ -16,33 +16,39 @@ export default function CompanyAbout(){
         <>
             <div id = "companyAboutSection">
                 <div className='companyAboutSection'>
-                    <div className='companyAboutTitle'>
-                        {/*Title*/}
-                        <h2 id = "secondHeader" className = {ralewayBold.className}>REAL RESULTS</h2>
-                        <h1 id = "firstHeader" className = {ralewayBold.className}>Where Strategy Meets Measurable Growth.</h1>
-                        {/*Disc*/}
-                        <p id = "paragraphText" className = {merriweather.className}>We focus on practical execution and measurable outcomes. 
-                            From operational restructuring to financial modeling and capital improvement planning, 
-                            our work drives performance gains that owners can see and sustain.</p>
-                    </div>
 
-                    {/*Statistics*/}
-                    <div className='companyAbtStats'>
-                        <div id = "stat1" className = {ralewayBold.className}>
-                            <p className='statNumbers'>+20%</p><p className = "statMoney"></p><br></br>
-                            <span className='statDisc'> Revenue growth within 4 months through pricing and occupancy optimization </span>
+                    <div className='statsPart'>
+                        <div className='statsSection'>
+                        <div className='companyAboutTitle'>
+                            {/*Title*/}
+                            <h2 id = "secondHeader" className = {ralewayBold.className}>REAL RESULTS</h2>
+                            <h1 id = "firstHeader" className = {ralewayBold.className}>Where Strategy Meets Measurable Growth.</h1>
+                            {/*Disc*/}
+                            <p id = "paragraphText" className = {merriweather.className}>We focus on practical execution and measurable outcomes. 
+                                From operational restructuring to financial modeling and capital improvement planning, 
+                                our work drives performance gains that owners can see and sustain.</p>
                         </div>
-                        <div id = "stat2" className = {ralewayBold.className}>
-                            <p className='statNumbers'>60% → 80%</p><p className = "statPercent">%</p><br></br>
-                            <span className='statDisc'> Occupancy increase following operational and demand strategy adjustments </span>
+
+                        {/*Statistics*/}
+                        <div className='companyAbtStats'>
+                            <div id = "stat1" className = {ralewayBold.className}>
+                                <p className='statNumbers'>+20%</p><p className = "statMoney"></p><br></br>
+                                <span className='statDisc'> Revenue growth within 4 months through pricing and occupancy optimization </span>
+                            </div>
+                            <div id = "stat2" className = {ralewayBold.className}>
+                                <p className='statNumbers'>60% → 80%</p><p className = "statPercent">%</p><br></br>
+                                <span className='statDisc'> Occupancy increase following operational and demand strategy adjustments </span>
+                            </div>
+                            <div id = "stat3" className = {ralewayBold.className}>
+                                <p className='statNumbers'>–15%</p><p className = "statPercent">%</p><br></br>
+                                <span className='statDisc'> Reduction in operating expenses through structural cost improvements </span>
+                            </div>
                         </div>
-                        <div id = "stat3" className = {ralewayBold.className}>
-                            <p className='statNumbers'>–15%</p><p className = "statPercent">%</p><br></br>
-                            <span className='statDisc'> Reduction in operating expenses through structural cost improvements </span>
                         </div>
                     </div>
                     
                     {/*Qoute*/}
+                    <div className='companyAbtQoutePart'>
                     <div className ='companyAbtQoute'>
                         <div id = "qoutations1"  className={ralewayBold.className}>"</div>
                         <h2 id = "qouteContent" className={ralewayBold.className}> 
@@ -50,19 +56,22 @@ export default function CompanyAbout(){
                         </h2>
                         <div id = "qoutations2" className={ralewayBold.className}>"</div>
                     </div>
+                    </div>
                     
                     {/*About*/}
-
+                    <div className='companyAboutPart'>
                     <div className='companyAboutDisc'>
                         {/*Company About Image*/}
                         <div className='compAbtImgContainer'>
-                            <Image
-                                src = {companyAbout}
-                                width={1000}
-                                height={500}
-                                alt = 'Company Stock Photo'
-                                className='compAbtImg'>
-                            </Image>
+                            <div id = 'compAbtBorder'>
+                                <Image
+                                    src = {companyAbout}
+                                    width={1000}
+                                    height={500}
+                                    alt = 'Company Stock Photo'
+                                    className='compAbtImg'>
+                                </Image>
+                            </div>
                         </div>
                         
                         {/*Company About Disc*/}
@@ -81,7 +90,7 @@ export default function CompanyAbout(){
                                 </p>
                             </div>
                         </div>
-
+                    </div>  
                 </div>
             </div>
         </>

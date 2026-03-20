@@ -94,23 +94,30 @@ export default function Navigation(){
             </nav>
 
 
-    {/* ON DESKTOP*/}   
+        {/* ON DESKTOP*/  }
         {/*Navigation Bar*/} 
-        {/* <div className='placeHolderNav'>
+        <div className='placeHolderNav'>
         <nav className ='navContainer'>
-     
+                     
+            <Image
+                src = {logo}
+                width={2000}
+                height={500}
+                alt = 'Logo of Monty & Friends'
+                id = "logoDesktop"
+            />
             <ul className='navList'>
                 {/*Pages*/}
-                        {/* <a className='active' href ='/'><li>01. Home</li></a>
-                        <a  href ='#aboutSection'><li>02. About</li></a>
-                        <a  href ='#workSection'><li>03. Work</li></a>
-                        <a  href ="#blogSection"><li>04. Blog</li></a>
-                        <a  href ="#contactSection"><li>05. Contact</li></a>
+                       <a className = 'activeMobile' href ='/'><li>Home</li></a>
+                        <a href ='/(1)services'><li>Services</li></a>
+                        <a href ='/(2)founder'><li>Founder</li></a>
+                        <a href ="/(3)blog"><li>Blog</li></a>
+                        <a href ="/(4)contact"><li>Contact</li></a>
             </ul> 
         </nav>  
         <div className='navBackgroundContainer'>
         <div className='navBackground'></div></div>
-        </div> */}
+        </div>
         
         </div>
         </>

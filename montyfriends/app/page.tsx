@@ -4,6 +4,7 @@ import Hero from "./components/hero";
 import Navigation from "./components/navigation";
 import CompanyAbout from "./components/companyAbout";
 import Footer from "./components/footer";
+import HeroExtraSpace from "./components/heroExtraSpace";
 
 export default function HomePage() {
   /*Currently Not Working */
@@ -14,6 +15,7 @@ export default function HomePage() {
     }}, []),
 
   <>
+    <HeroExtraSpace/>
     <Navigation/>
     <Hero/>
     <CompanyAbout/>

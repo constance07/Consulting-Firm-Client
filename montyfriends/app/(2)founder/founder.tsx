@@ -17,16 +17,18 @@ export default function Founder(){
         <div className='founderAboutSection'>
             <div className='founderAboutContainer'>
                 {/*Company About Image*/}
-                <div className='founderImageContainer'>
-                    <Image
-                        src = {sumisHeadshot}
-                        width={2000}
-                        height={500}
-                        alt = 'sumis Headshot'
-                        className='sumiHeadshot'>
-                    </Image>
-                    <button id = "downloadResume" className={ralewayBold.className}><span id = "downloadContent"><a id = "downloadLink" href = "/SumiResume.docx"download = "SumiResume" target ="_blank">Resume</a></span></button>
-
+                    
+                    <div className='founderImageContainer'>
+                        <div className='founderImagePart'>
+                        <Image
+                            src = {sumisHeadshot}
+                            width={2000}
+                            height={500}
+                            alt = 'sumis Headshot'
+                            className='sumiHeadshot'>
+                        </Image>
+                        </div>
+                        <button id = "downloadResume" className={ralewayBold.className}><span id = "downloadContent"><a id = "downloadLink" href = "/SumiResume.docx"download = "SumiResume" target ="_blank">Resume</a></span></button>
                 </div>
                 {/*Founder About Disc*/}
                 <div className='founderAboutDisc'>

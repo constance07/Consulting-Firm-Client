@@ -100,7 +100,7 @@ export default function Contact(){
                 {/*Disc*/}
                 <p className={merriweather.className} id = "contactDisc">
                     If you’re looking to strengthen performance, improve financial clarity, or prepare your business for its next stage of growth, we’d welcome the opportunity to learn more.
-                    Tell us about your business, what you’re working toward, and where you see the biggest challenges. We review every inquiry carefully and respond directly
+                    Tell us about your business, what you’re working toward, and where you see the biggest challenges. We review every inquiry carefully and respond directly.
                 </p>
                 {/*Form*/}
                 <div className = "formBox">
