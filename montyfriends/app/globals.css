@@ -952,7 +952,7 @@ body{
 @media(min-width: 1280px){
     /* NAVIGATION */
     .placeHolderNav{
-        padding-left: 35px;
+        padding-left: 20px;
     }#logoDesktop{
         margin-right: 470px;
     }.navContainer ul{
@@ -966,7 +966,7 @@ body{
     .heroContainer{
       padding-bottom: 60px;
     }.title{
-      padding-right: 80px; 
+      padding-right: 70px; 
     }#firstPartTitle{
       font-size: 1.4em;
     }#secondPartTitle{
@@ -977,7 +977,7 @@ body{
       font-size: 0.975em;
     }.heroImage{
       margin-top: 45px;
-      width: 525px;
+      width: 550px;
       height: 300px;
     }
     /* COMPANY ABOUT */
