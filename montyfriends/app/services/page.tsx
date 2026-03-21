@@ -2,10 +2,8 @@
 import {useEffect} from "react";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
-import Contact from './contact';
-
-export default function ContactPage() {
-  /*Currently Not Working */
+import Services from "../services/services";
+export default function About() {
   return (
     useEffect(() => {
       window.onbeforeunload = function () {
@@ -14,7 +12,7 @@ export default function ContactPage() {
 
   <>
     <Navigation/>
-    <Contact/>
+    <Services/>
     <Footer/>
   </>
   )

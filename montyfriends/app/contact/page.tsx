@@ -2,8 +2,11 @@
 import {useEffect} from "react";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
-import Services from "../(1)services/services";
-export default function About() {
+import Contact from './contact';
+import HeroExtraSpace from "../components/heroExtraSpace";
+
+export default function ContactPage() {
+  /*Currently Not Working */
   return (
     useEffect(() => {
       window.onbeforeunload = function () {
@@ -11,8 +14,9 @@ export default function About() {
     }}, []),
 
   <>
+    <HeroExtraSpace/>
     <Navigation/>
-    <Services/>
+    <Contact/>
     <Footer/>
   </>
   )

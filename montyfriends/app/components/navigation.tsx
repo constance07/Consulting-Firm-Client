@@ -86,10 +86,10 @@ export default function Navigation(){
                         </div>
                     {/*Pages*/}
                         <a className = 'activeMobile' href ='/'><li>Home</li></a>
-                        <a href ='/(1)services'><li>Services</li></a>
-                        <a href ='/(2)founder'><li>Founder</li></a>
-                        <a href ="/(3)blog"><li>Blog</li></a>
-                        <a href ="/(4)contact"><li>Contact</li></a>
+                        <a href ='/services'><li>Services</li></a>
+                        <a href ='/founder'><li>Founder</li></a>
+                        <a href ="/blog"><li>Blog</li></a>
+                        <a href ="/contact"><li>Contact</li></a>
                     </ul>    
             </nav>
 
@@ -109,10 +109,10 @@ export default function Navigation(){
             <ul className='navList'>
                 {/*Pages*/}
                        <a className = 'activeMobile' href ='/'><li>Home</li></a>
-                        <a href ='/(1)services'><li>Services</li></a>
-                        <a href ='/(2)founder'><li>Founder</li></a>
-                        <a href ="/(3)blog"><li>Blog</li></a>
-                        <a href ="/(4)contact"><li>Contact</li></a>
+                        <a href ='/services'><li>Services</li></a>
+                        <a href ='/founder'><li>Founder</li></a>
+                        <a href ="/blog"><li>Blog</li></a>
+                        <a href ="/contact"><li>Contact</li></a>
             </ul> 
         </nav>  
         <div className='navBackgroundContainer'>
