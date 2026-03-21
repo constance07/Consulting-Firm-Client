@@ -15,7 +15,9 @@ body{
           height: 100vh;
           overflow-x: hidden;
       }
-
+:root{
+    --toastify-font-family:var(--toastify-font-family);
+}
 /*Media Queries* --> Iphone and Tablets*/
 /*xs*/
 @media (min-width: 0px){
@@ -572,7 +574,8 @@ body{
       background-color: #ffeea8;
       transition: 0.25s ease-in;
       cursor: pointer;
-    }#nameError, #emailError, #subjectError, #messageError{
+    }#nameError, #emailError, #subjectError, #messageError,
+    #compNameError, #industryError, #subjectError, #annualRevError{
       text-align: start;
       font-size: 0.75em;
       color: rgb(255, 24, 24);
