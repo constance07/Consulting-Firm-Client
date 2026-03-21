@@ -66,7 +66,7 @@ export default function Contact(){
             {/*If field is not valid, add error */}
             if(!formDataServer.name) {nameError.innerHTML = "* Please insert your name."};
             if(!formDataServer.companyName) {compNameError.innerHTML = "* Please insert the company name."};
-            if(!formDataServer.industry) {industryError.innerHTML = "* Please specify the industry you're in."};
+            if(!formDataServer.industry) {industryError.innerHTML = "* Please specify the industry of the company."};
             if(!formDataServer.subject) {subjectError.innerHTML = "* Please clarify the subject you need help with."};
             if(!formDataServer.email.match(validEmail)){emailError.innerHTML = "* Please insert a valid email."}
             if(!formDataServer.message){ messageError.innerHTML = "* Please type a complete message."};
@@ -139,7 +139,7 @@ export default function Contact(){
                     <form name = "conctactForm" onSubmit = {onSubmit} className='form' >
                         <fieldset className='formField'>
                             <h2 id='formSubTitles' className = {ralewayBold.className} >NAME</h2>
-                            <div className = {ralewayBold.className} id = "nameError"></div>
+                            <div className = {raleway.className} id = "nameError"></div>
                                 <input 
                                 className= {raleway.className} 
                                 id='inputA' 
@@ -149,7 +149,7 @@ export default function Contact(){
                                 />
 
                             <h2 id='formSubTitles' className = {ralewayBold.className} >COMPANY NAME</h2>
-                            <div className = {ralewayBold.className} id = "compNameError"></div>
+                            <div className = {raleway.className} id = "compNameError"></div>
                                 <input 
                                 className= {raleway.className} 
                                 id='inputA' 
@@ -159,7 +159,7 @@ export default function Contact(){
                                 />
 
                             <h2 id='formSubTitles' className = {ralewayBold.className} >INDUSTRY</h2>
-                            <div className = {ralewayBold.className} id = "industryError"></div>
+                            <div className = {raleway.className} id = "industryError"></div>
                                 <input 
                                 className= {raleway.className} 
                                 id='inputA' 
@@ -169,7 +169,7 @@ export default function Contact(){
                                 />
 
                             <h2 id='formSubTitles' className = {ralewayBold.className}>SUBJECT</h2>
-                            <div className = {ralewayBold.className} id = "subjectError"></div>
+                            <div className = {raleway.className} id = "subjectError"></div>
                                 <input  
                                 className= {raleway.className} 
                                 id='inputA'
@@ -179,7 +179,7 @@ export default function Contact(){
                                 />
 
                             <h2 id='formSubTitles' className = {ralewayBold.className}>EMAIL</h2>
-                            <div className = {ralewayBold.className} id = "emailError"></div>
+                            <div className = {raleway.className} id = "emailError"></div>
                                 <input  
                                 className= {raleway.className} 
                                 id='inputB'
@@ -189,7 +189,7 @@ export default function Contact(){
                                 />
 
                             <h2 id='formSubTitles' className = {ralewayBold.className}>MESSAGE</h2>
-                            <div className = {ralewayBold.className} id = "messageError"></div>
+                            <div className = {raleway.className} id = "messageError"></div>
                             <textarea  
                                 className= {raleway.className} 
                                 id='textArea' 
@@ -198,7 +198,7 @@ export default function Contact(){
                             </textarea>
 
                             <h2 id='formSubTitles' className = {ralewayBold.className}>ANNUAL REVENUE RANGE</h2>
-                            <div className = {ralewayBold.className} id = "annualRevError"></div>
+                            <div className = {raleway.className} id = "annualRevError"></div>
                             <textarea  
                                 className= {raleway.className} 
                                 id='annualRev' 
