@@ -36,7 +36,7 @@ export default function Hero(){
                     their teams to improve operations, strengthen margins, and build short and long-term strategy — because real performance starts with the people behind the business.
                 </p>
                 {/*Button*/}
-                 <button /* onMouseEnter = {enableUnderline()} */ id = "helpButton" className={ralewayBold.className}><span id = "helpContent"><a href = '/(1)services' id = "helpLink">Work With Us</a></span></button>
+                 <button /* onMouseEnter = {enableUnderline()} */ id = "helpButton" className={ralewayBold.className}><span id = "helpContent"><a href = '/services' id = "helpLink">Work With Us</a></span></button>
                 </div>
                 </div>
 
