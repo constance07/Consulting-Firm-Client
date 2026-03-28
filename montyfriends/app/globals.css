@@ -172,7 +172,7 @@ body{
       transition: 0.5s ease-out;
     }#firstPartTitle{
       font-size: 1.1em;
-      color: #e989c3;
+      color: #f3a54c;
       margin-bottom: 0px;
       margin-top: 40px;
     }#secondPartTitle{
@@ -218,7 +218,7 @@ body{
       width: 0;
       text-decoration: none;
       position: absolute;
-      background-color: #e989c3;
+      background-color: #f3a54c;
       transition: width 0.25s ease-out;
     }#helpButton:hover > span#helpContent:before{
       width: 100%;
@@ -240,7 +240,7 @@ body{
     display: flex;
     flex-direction: column;
   }#secondHeader{
-    color: #e989c3;
+    color: #f3a54c;
     font-size: 1.0em;
     margin-bottom: 10px;
   }#firstHeader{
@@ -280,7 +280,7 @@ body{
     display: flex;
     flex-direction: column;
   }#qoutations1,#qoutations2{
-    color: #e989c3;
+    color: #f3a54c;
     font-size: 4.0em;
   }#qouteContent{
     margin-top: 0px;
@@ -296,7 +296,7 @@ body{
   }.compAbtImgContainer{
     background-color: #FFEDA8;
     display: flex;
-    height: 575px;
+    height: 560px;
     align-items: center;
     justify-content: center;
   }.compAbtImg{
@@ -467,7 +467,7 @@ body{
       width: 0;
       text-decoration: none;
       position: absolute;
-      background-color: #e989c3;
+      background-color: #f3a54c;
       transition: width 0.25s ease-out;
     }#downloadResume:hover > span#downloadContent:before{
       width: 100%;
@@ -611,8 +611,10 @@ body{
   }#qouteContent{
     font-size: 1.55em;
   }.compAbtImg{
-    width: 285px;
-    height: 435px;
+    width: 360px;
+    height: 535px;
+  }.compAbtImgContainer{
+    height: 775px;
   }
   /* SERVICES */
   #serviceImage{
@@ -850,7 +852,7 @@ body{
     }.compAbtImgContainer{
       padding-left: 95px;
       padding-right: 95px;
-      height: 800px;
+      height: 900px;
     }.companyAboutDiscContent{
       height: 800px;
     }.compAbtImg{
